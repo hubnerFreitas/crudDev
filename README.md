@@ -8,8 +8,8 @@
 # Como executar
  * Clone o repositório
  * Acesse a pasta backend e instale as dependências com yarn
- * No docker com o banco postgresql ja instalado execute o script
- ** docker run --name postBanco -e POSTGRES_USER=docker -e POSTGRES_PASSWORD=docker -d -p 5432:5432 postgres
+ * No docker com o banco postgresql ja instalado execute o script:
+    "docker run --name postBanco -e POSTGRES_USER=docker -e POSTGRES_PASSWORD=docker -d -p 5432:5432 postgres"
  * Inicie o servidor com yarn dev
  * Para executar os test basta executar yarn test
  
